@@ -1,6 +1,10 @@
 def function_z(n):
-
-	return n
+	ret = 0
+	f = 5
+	while(f <= n):
+		ret += n/f
+		f *= 5
+	return str(ret)
 
 T = int(raw_input())
 O = ''
